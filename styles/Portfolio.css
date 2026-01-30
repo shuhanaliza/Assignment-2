@@ -8,3 +8,308 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* shared styles */
+
+
+
+header{
+
+    background: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    padding-top:30px;
+    max-width:1885px;
+    
+
+}
+
+.text-color{
+  color:white;
+}
+
+.text-color1{
+  background: linear-gradient();
+}
+
+.display-flex{
+    display:flex;
+}
+
+
+/* nav-bar related styles */
+
+.wave{
+  color:white;
+}
+
+.navbar{
+
+background-color:#1A0B2E;
+justify-content: space-between;
+align-items: center;
+margin-bottom:50px;
+
+}
+
+.nav-links a{
+      text-decoration: none;
+      font-size:16px;
+      font-weight:500px;
+
+}
+
+.nav-links{
+  gap:32px;
+  margin-left:  
+
+}
+
+.nav-item{
+  list-style-type: none;
+  
+}
+
+.nav-item .nav-link{
+  color:white;
+}
+
+.subscribe-button{
+
+  padding: 12px 16px 12px 16px;
+  border-radius:1000px;
+  font-size:16px;
+  color:white;
+  background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+  margin-top:20px;
+  margin-bottom:20px;
+  border:none;
+  margin-right:200px;
+  cursor:pointer;
+
+}
+
+
+.navbar .banner{
+    margin:0 auto;
+    max-width:1600px;
+
+}
+
+.brand{
+  margin-left:200px;
+}
+
+
+/* banner related design */
+
+.img-1{
+  background-image: url(../assets/microphone.png);
+  background-repeat: no-repeat;
+  margin-left:30px;
+  
+  position: relative;
+
+
+
+}
+
+.banner{
+  margin:0 auto;
+}
+
+.banner .img-1{
+  
+
+  
+}
+
+ .microphone{
+  margin-top:-50px;
+  margin-left:600px;
+}
+
+
+ .title{
+  color:white;
+  font-size:60px;
+  font-weight:1200px;
+}
+
+.banner{
+  max-width:1600px;
+}
+
+.banner-content{
+  max-width:550px;
+  margin:0 auto;
+  text-align: center;
+
+
+}
+
+.description{
+  color:#FFFFFF;
+  font-size:16px;
+
+}
+
+.listen-button{
+   padding: 12px 16px 12px 16px;
+  border-radius:1000px;
+  font-size:16px;
+  color:white;
+  background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+  margin-top:20px;
+  border:none;
+  cursor:pointer;
+      margin-bottom:101px;
+
+}
+
+.subcribe-1{
+   padding: 12px 20px 12px 20px;
+  border-radius:1000px;
+  font-size:16px;
+  color:#00FF88;
+ background-color:#1A0B2E;
+ box-sizing: border-box;
+ border:1px solid #00FF88;
+  margin-top:20px;
+  cursor:pointer;
+  margin-left:10px;
+      margin-bottom:101px;
+
+}
+
+
+
+/* about section designed */
+
+.section-heading{
+  max-width:1200px;
+  margin:0 auto;
+  text-align: center;
+  color:#FFFFFF;
+  font-size:48px;
+  margin-bottom:20px;
+}
+
+
+.section-heading h2{
+  color:white;
+  padding-top:50px;
+  font-size:48px;
+  font-weight:900px;
+}
+
+
+.section-heading p{
+  font-size:16px;
+  color:white;
+  text-align: center;
+  padding-bottom:80px;
+
+}
+
+#about .about-container{
+  max-width:1600px;
+  margin:0 auto;
+  text-align: center;
+  background-color:#1A0B2E; 
+  padding:50px 200px 50px 200px;
+}
+
+
+#about .about-container .about-info{
+  display:flex;
+  justify-content: space-between;
+  padding:50px 200px 120px 200px;
+}
+
+
+.about-info .info-card h4{
+  color:#00FF88;
+  font-size:48px;
+  margin-bottom:15px;
+
+}
+
+.about-info .info-card p{
+  color:#FFFFFF;
+  font-size:16px;
+  line-height:20px;
+  margin-top:0px;
+}
+
+
+
+/* techwwave related design */
+
+#techwave .techwave-content{
+   background-color:rgba(35, 14, 61, 1);
+   max-width:1600px;
+   padding:120px 200px 80px 200px;
+}
+
+  #techwave .techwave-content .section-heading h2{
+  font-size:48px;
+  font-weight:bold;
+  padding:120px 
+
+}
+
+.tech-box-container{
+  display:grid;
+  gap:20px;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,200px);
+
+}
+
+.tech-box-container .tech-box{
+  box-shadow: 0 0px 5px rgb(129, 37, 194);
+  border-radius: 20px;
+    padding:40px 40px 40px 40px;
+
+    background-color: #38106c;
+
+}
+
+
+#sidebar{
+  grid-row: span 2;
+}
+
+#sidebar-1{
+  grid-row:span 1;
+  grid-column: span 2;
+}
+
+
+#sidebar-2{
+  grid-row:span 1;
+  grid-column:span 2;
+
+
+}
+
+#sidebar-3{
+  grid-row:span 1;
+  grid-column:span 2;
+
+
+}
+
+
+.tech-box h4{
+  color:#FFFFFF;
+    
+
+}
+
+.tech-box p{
+  color:#FFFFFF;
+}
+
