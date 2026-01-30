@@ -105,7 +105,7 @@ margin-bottom:50px;
 /* banner related design */
 
 .img-1{
-  background-image: url(../assets/microphone.png);
+  background-image: url(../assets/);
   background-repeat: no-repeat;
   margin-left:30px;
   
@@ -312,4 +312,72 @@ margin-bottom:50px;
 .tech-box p{
   color:#FFFFFF;
 }
+
+
+/* features related design */
+
+#features{
+  max-width:1900px;
+  grid-template-columns: repeat(3,1fr);
+  background-color: #1A0B2E;
+  margin-bottom:0px;
+}
+
+#features .section-heading h2{
+  text-align: center;
+  padding-bottom:40px;
+
+}
+
+#features .feature-content{
+  max-width:1200px;
+  align-items: center;
+  justify-items: center;
+}
+
+.feature-content{
+  max-width:100px;
+  display:flex;
+  gap:20px;
+  padding:0px 200px 120px 200px;
+  margin-left:120px;
+    border-radius: 100px;
+
+}
+
+.feature-content .feature-info h4{
+  color:white;
+  font-size:20px;
+}
+
+.feature-content .feature-info p{
+  color:white;
+  font-size:16px;
+}
+
+
+
+/* host */
+
+#host{
+  background: #1A0B2E;
+}
+
+
+#host .host-content{
+  display:flex;
+  gap:30px;
+  
+
+}
+
+#host .host-content h3{
+  color:white;
+  font-size:20px
+}
+
+#host .host-content p{
+  color:white;
+}
+
 
